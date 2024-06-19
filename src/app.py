@@ -49,6 +49,7 @@ def read_products():
 def write_products(products):
     try:
         with connection.cursor() as cursor:
+            cursor.execute("DELETE FROM products")
             for product in products:
                 cursor.execute(
                     "INSERT INTO products (item, price) VALUES (%s, %s)",
@@ -71,6 +72,7 @@ def read_orders():
 def write_orders(orders):
     try:
         with connection.cursor() as cursor:
+            cursor.execute("DELETE FROM orders")
             for order in orders:
                 cursor.execute(
                     "INSERT INTO orders (customer_name, customer_address, customer_phone, status) VALUES (%s, %s, %s, %s)",
@@ -93,6 +95,7 @@ def read_couriers():
 def write_couriers(couriers):
     try:
         with connection.cursor() as cursor:
+            cursor.execute("DELETE FROM couriers")
             for courier in couriers:
                 cursor.execute(
                     "INSERT INTO couriers (courier_name) VALUES (%s)",

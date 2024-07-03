@@ -79,7 +79,7 @@ Run the script using _python app.py_.
 
 ## Usage
 
-The script presents a colour-formatted menu with options to manage products, orders, and couriers. Each section has further options for CRUD operations. Use the corresponding numbers to navigate through the menus.
+This script presents a colour-formatted menu with options to manage products, orders, and couriers. Each section has further options for CRUD operations. Use the corresponding numbers to navigate through the menus.
 
 ## Disclaimer
 

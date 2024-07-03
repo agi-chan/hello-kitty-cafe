@@ -366,4 +366,4 @@ while True:
                 write_couriers(couriers)
                 print("Courier deleted.")
 
-print(f"{Fore.LIGHTMAGENTA_EX} Goodbye! (´｡• ω •｡`) ⋆｡°✩ ⋆⁺｡˚⋆˙‧₊✩₊‧˙⋆˚｡⁺⋆ ✩°｡⋆.・゜゜・゜゜・．｡･ﾟﾟ･             ･ﾟﾟ･｡.")
+print(f"{Fore.LIGHTMAGENTA_EX} Goodbye! (´｡• ω •｡`) ⋆｡°✩ ⋆⁺｡˚⋆˙‧₊✩₊‧˙⋆˚｡⁺⋆ ✩°｡⋆.・゜゜・゜゜・．｡･ﾟﾟ･             ･ﾟﾟ･｡..")

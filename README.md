@@ -25,6 +25,7 @@ __Client requirements__: Code should handle bad input, be readable with comments
 - CRUD (Create, Read, Update, Delete) operations for products, orders, and couriers.
 - Colourful and themed text menus for UI/UX.
 - Error handling for database connection and user input.
+- Unit tests.
 
 ## Requirements
 
